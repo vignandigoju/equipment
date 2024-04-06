@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".MyApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,6 +14,123 @@
         android:theme="@style/Theme.Application"
         tools:targetApi="31">
         <activity
+            android:name=".supervisor_profile"
+            android:exported="false" />
+        <activity
+            android:name=".manage_users"
+            android:exported="false" />
+        <activity
+            android:name=".worker"
+            android:exported="false" />
+        <activity
+            android:name=".worker_home"
+            android:exported="false" />
+        <activity
+            android:name=".supervisor_home2"
+            android:exported="false" />
+        <activity
+            android:name=".add_equipment"
+            android:exported="false" />
+        <activity
+            android:name=".user_issues"
+            android:exported="false" />
+        <activity
+            android:name=".user_raise_issue"
+            android:exported="false"
+            android:label="@string/title_activity_user_home"
+            android:theme="@style/Theme.Application" />
+        <activity
+            android:name=".user_login"
+            android:exported="false" />
+        <activity
+            android:name=".user_home"
+            android:exported="false" />
+        <activity
+            android:name=".manager_issues"
+            android:exported="false" />
+        <activity
+            android:name=".issueSuccessful"
+            android:exported="false" />
+        <activity
+            android:name=".supervisior_raise_issues"
+            android:exported="false" />
+        <activity
+            android:name=".supervisor_job_history"
+            android:exported="false" />
+        <activity
+            android:name=".workSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".assign_work"
+            android:exported="false" />
+        <activity
+            android:name=".technicians"
+            android:exported="false" />
+        <activity
+            android:name=".equipment_details"
+            android:exported="false" />
+        <activity
+            android:name=".equipment"
+            android:exported="false" />
+        <activity
+            android:name=".room"
+            android:exported="false" />
+        <activity
+            android:name=".floor"
+            android:exported="false" />
+        <activity
+            android:name=".floor_list"
+            android:exported="false" />
+        <activity
+            android:name=".manager_rating"
+            android:exported="false" />
+        <activity
+            android:name=".manager_profile"
+            android:exported="false" />
+        <activity
+            android:name=".manager_job_history"
+            android:exported="false" />
+        <activity
+            android:name=".add_worker"
+            android:exported="false" />
+        <activity
+            android:name=".sup_success"
+            android:exported="false" />
+        <activity
+            android:name=".add_supervisor"
+            android:exported="false" />
+        <activity
+            android:name=".supervisor_home"
+            android:exported="false" />
+        <activity
+            android:name=".manager_home"
+            android:exported="false" />
+        <activity
+            android:name=".navigation"
+            android:exported="false"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".manager"
+            android:exported="false" />
+        <activity
+            android:name=".supervisor"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -21,6 +139,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -1,5 +1,48 @@
 <resources>
-    <string name="app_name">application</string>
-    <string name="logo">logo</string>
+    <string name="app_name">Elec Dhiwise</string>
+    <string name="start">Get Started</string>
+    <string name="logo">Logo</string>
+    <string name="title">Welcome to ElecDhiwise!</string>
+    <string name="Supervisor">Login as Supervisor</string>
+    <string name="Manager">Login as Manager</string>
+    <string name="back">Back</string>
+    <string name="welcome_supervisor">Welcome, Supervisor!</string>
+    <string name="welcome_manager">Welcome, Manager!</string>
     <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="todo">TODO</string>
+    <string name="pass">TODO</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="electrical_equipment">Electrical Equipment</string>
+    <string name="supervisor_home">HOME</string>
+    <string name="hamburger">hamburger</string>
+    <string name="add">add</string>
+    <string name="navi_close">Close</string>
+    <string name="navi_open">Open</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="dhiwise">Dhiwise</string>
+    <string name="helloworld">Helloworld</string>
+    <string name="communicate">Communicate</string>
+    <string name="settings">Settings</string>
+    <string name="login2">Login</string>
+    <string name="logout">Logout</string>
+    <string name="home2">Home</string>
+    <string name="rome">Rome</string>
+    <string name="edit">Edit</string>
+    <string name="elecdhiwise">ElecDhiwise</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_home">user_home</string>
 </resources>

@@ -4,32 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/logo"
-        android:src="@tools:sample/avatars"
-        app:layout_constraintBottom_toBottomOf="@+id/button2"
+        android:layout_marginBottom="48dp"
+        android:contentDescription="@string/title"
+        android:fontFamily="sans-serif-medium"
+        android:shadowColor="#3F3064"
+        android:text="@string/title"
+        android:textColor="#3F3064"
+        android:textColorLink="#3F3064"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/image_5" />
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="311dp"
+        android:layout_height="298dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594"
+        app:srcCompat="@drawable/loooogo" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="311dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="128dp"
-        android:background="#03A9F4"
-        android:backgroundTint="#000000"
-        android:text="@string/login"
-        app:cornerRadius="50dp"
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#3F3064"
+        android:onClick="startApp"
+        android:text="@string/start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

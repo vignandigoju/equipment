@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "383869667878",
+    "project_id": "elecdhiwise",
+    "storage_bucket": "elecdhiwise.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383869667878:android:c25a9d1c6f54fec7dff4e7",
+        "android_client_info": {
+          "package_name": "com.example.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwsmILyqWCMgBuLEWdHBtVS-2a0OHsqVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
